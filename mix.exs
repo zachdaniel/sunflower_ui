@@ -29,7 +29,8 @@ defmodule SunflowerUI.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tails, github: "zachdaniel/tails"},
+      {:tails, "~> 0.1.1"},
+      {:phoenix_live_view, "~> 0.18.3"},
       {:ex_doc, "~> 0.22", only: :dev, runtime: false},
       {:ex_check, "~> 0.12.0", only: :dev},
       {:credo, ">= 0.0.0", only: :dev, runtime: false},

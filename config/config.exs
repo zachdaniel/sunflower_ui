@@ -1,3 +1,5 @@
+import Config
+
 if Mix.env() == :dev do
   config :git_ops,
     mix_project: SunflowerUI.MixProject,
